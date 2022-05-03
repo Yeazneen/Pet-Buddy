@@ -1,0 +1,112 @@
+/* Header image */
+.Banner {
+  height: 32rem;
+  width: 100%;
+  opacity: 0.88;
+}
+
+/* Logo */
+.Logo {
+  height: 4rem;
+  width: 12rem;
+  margin-left: -10px;
+}
+
+/* Navbar display */
+.Navbar {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid whitesmoke;
+}
+
+/* Style nav bar list  */
+.List {
+  display: flex;
+  list-style-type: none;
+  float: right;
+}
+
+/* Style nav bar list items */
+li {
+  padding: 5px;
+  padding-right: 25px;
+  background-color: white;
+  border: 1px solid white;
+  color: #f58a42;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  border: white solid 5px;
+  background-color: white;
+}
+
+/* Style main display */
+.Main {
+  margin: 4rem;
+  border: 1px solid whitesmoke;
+}
+
+/* Style first h1 tag of main section */
+#Our-Pet-Care-Services {
+  text-align: center;
+  color: #8c8c8c;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+/* Style unordered list in the main section */
+.Container {
+  list-style-type: none;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 350px 350px 350px;
+  margin: 4rem;
+  clear: both;
+  margin-top: 0;
+}
+
+/* Style the list of services in the main section */
+.display {
+  color: #8c8c8c;
+  margin: 1rem;
+  border: 1px solid whitesmoke;
+  padding: 1rem;
+  height: 15rem;
+  text-align: justify;
+}
+
+/* Style service lists header in the main section */
+.Service-name-header {
+  color: #f58a42;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 2px;
+}
+
+/* Style buttons in the main section */
+.Button {
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  color: whitesmoke;
+  background-color: #f58a42;
+  margin-top: 40px;
+  width: 120px;
+  height: 30px;
+  border: 2px solid #f58a42;
+  margin-left: 74px;
+}
+
+/* Style footer */
+.Footer {
+  position: absolute;
+  width: 100%;
+  height: 8rem;
+  background-color: #ffe066;
+  color: #8c8c8c;
+}
+
+/* Style text in footer */
+.Info {
+  margin-left: 15px;
+}
