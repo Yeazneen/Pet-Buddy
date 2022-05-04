@@ -6,13 +6,19 @@ export default function Navbar(props) {
 
       <ul className="List">
         <li>
-          <a href>Services</a>
+          <a className="NavList" href={`/services`}>
+            Services
+          </a>
         </li>
         <li>
-          <a href>Pet Shop</a>
+          <a className="NavList" href={`/pet-shop`}>
+            Pet Shop
+          </a>
         </li>
         <li>
-          <a href>Login</a>
+          <a className="NavList" href={`/login`}>
+            Login
+          </a>
         </li>
       </ul>
     </div>

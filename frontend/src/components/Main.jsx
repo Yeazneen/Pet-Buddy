@@ -10,8 +10,10 @@ export default function Main() {
             we're here to help.
           </p>
 
-          <div className="Button">
-            <a href>Learn More</a>
+          <div className="Service-Button">
+            <a className="ServiceLink" href={`/pet-sitting`}>
+              Learn More
+            </a>
           </div>
         </li>
 
@@ -22,8 +24,10 @@ export default function Main() {
             daily dose of fun-filled exercise.
           </p>
 
-          <div className="Button">
-            <a href>Learn More</a>
+          <div className="Service-Button">
+            <a className="ServiceLink" href={`/dog-walking`}>
+              Learn More
+            </a>
           </div>
         </li>
 
@@ -34,8 +38,10 @@ export default function Main() {
             improve their behaviour.
           </p>
 
-          <div className="Button">
-            <a href>Learn More</a>
+          <div className="Service-Button">
+            <a className="ServiceLink" href={`/pet-training`}>
+              Learn More
+            </a>
           </div>
         </li>
 
@@ -46,20 +52,24 @@ export default function Main() {
             got their tail covered.
           </p>
 
-          <div className="Button">
-            <a href>Learn More</a>
+          <div className="Service-Button">
+            <a className="ServiceLink" href={`/pet-taxi`}>
+              Learn More
+            </a>
           </div>
         </li>
 
         <li className="display">
           <h1 className="Service-name-header">Medical Need</h1>
           <p>
-            Our team of experienced professionals can help with everything from
-            pills to injections.
+            Our team of experienced professionals can help your pet with any
+            medical needs
           </p>
 
-          <div className="Button">
-            <a href>Learn More</a>
+          <div className="Service-Button">
+            <a className="ServiceLink" href={`/medical-need`}>
+              Learn More
+            </a>
           </div>
         </li>
 
@@ -70,8 +80,10 @@ export default function Main() {
             medical needs.
           </p>
 
-          <div className="Button">
-            <a href>Learn More</a>
+          <div className="Service-Button">
+            <a className="ServiceLink" href={`/pet-grooming`}>
+              Learn More
+            </a>
           </div>
         </li>
       </ul>

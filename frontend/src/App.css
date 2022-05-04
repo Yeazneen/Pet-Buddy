@@ -27,7 +27,7 @@
 }
 
 /* Style nav bar list items */
-li {
+.NavList {
   padding: 5px;
   padding-right: 25px;
   background-color: white;
@@ -84,11 +84,11 @@ li {
 }
 
 /* Style buttons in the main section */
-.Button {
+.Service-Button {
   position: absolute;
   text-align: center;
   padding-top: 10px;
-  color: whitesmoke;
+
   background-color: #f58a42;
   margin-top: 40px;
   width: 120px;
@@ -97,6 +97,9 @@ li {
   margin-left: 74px;
 }
 
+.ServiceLink {
+  color: whitesmoke;
+}
 /* Style footer */
 .Footer {
   position: absolute;
@@ -109,4 +112,27 @@ li {
 /* Style text in footer */
 .Info {
   margin-left: 15px;
+}
+
+/* Style product display in shop */
+.Shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style product in shop */
+.product {
+  border: solid 1px whitesmoke;
+  margin: 1rem;
+}
+
+/* Style product images in shop */
+.product-image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-content {
+  padding: 1rem;
 }
