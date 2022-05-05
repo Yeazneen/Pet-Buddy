@@ -9,12 +9,13 @@
 .Logo {
   height: 4rem;
   width: 12rem;
-  margin-left: -10px;
+  margin-left: 5px;
+  padding: 1px;
 }
 
 /* Navbar display */
 .Navbar {
-  padding: 1rem;
+  /*padding: 1rem;*/
   background-color: white;
   border: 1px solid whitesmoke;
 }
@@ -115,7 +116,7 @@
 }
 
 /* Style product display in shop */
-.Shop {
+.ShopDisplay {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -133,6 +134,7 @@
   max-width: 400px;
 }
 
+/* Product description */
 .product-content {
   padding: 1rem;
 }

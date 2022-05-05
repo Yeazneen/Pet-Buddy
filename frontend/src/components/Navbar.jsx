@@ -1,8 +1,9 @@
 import Logo from './Logo.jpeg';
+
 export default function Navbar(props) {
   return (
     <div className="Navbar">
-      <img className="Logo" src={Logo} alt={props.alt} />
+      <img className="Logo" src={Logo} alt={props.alt}></img>
 
       <ul className="List">
         <li>

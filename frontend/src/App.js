@@ -1,19 +1,20 @@
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import Home from './components/Home';
 import Shop from './components/Shop';
-//import data from './components/data.js';
+import ProductScreen from './components/ProductScreen';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import './App.css';
 
 export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Navbar />
-      <Main />
-      <Shop />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/shop" element={<Shop />}></Route>
+          <Route path="/product/:slug" element={<ProductScreen />}></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
