@@ -1,4 +1,5 @@
 import Logo from './Yellow-Paws.jpeg';
+//import { useHistory } from 'react-router-dom';
 
 export default function Navbar(props) {
   return (
@@ -13,7 +14,7 @@ export default function Navbar(props) {
             </a>
           </li>
           <li>
-            <a className="NavList" href={`/pet-shop`}>
+            <a className="NavList" href={`/shop`}>
               Pet Shop
             </a>
           </li>
