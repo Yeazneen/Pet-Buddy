@@ -1,4 +1,4 @@
-import Banner from './Banner.jpeg';
+import Banner from './Pet-Buddy.jpg';
 
 export default function Header(props) {
   return (
