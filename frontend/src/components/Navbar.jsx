@@ -20,7 +20,7 @@ export default function Navbar(props) {
             </a>
           </li>
           <li>
-            <a className="NavList" href={`/login`}>
+            <a className="NavList" onclick href={`/login`}>
               Login
             </a>
           </li>

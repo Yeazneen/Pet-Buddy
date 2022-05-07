@@ -36,8 +36,9 @@ export default function Shop() {
         ))}
       </div>
 
-      <div className="Footer"></div>
-      <Footer />
+      <div className="Footer">
+        <Footer />
+      </div>
     </div>
   );
 }
