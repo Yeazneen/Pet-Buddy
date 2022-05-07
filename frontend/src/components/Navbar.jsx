@@ -5,8 +5,9 @@ export default function Navbar(props) {
   return (
     <div className="Navbar">
       <nav>
-        <img className="Logo" src={Logo} alt={props.alt}></img>
-
+        <a onClick href={`/home`}>
+          <img className="Logo" src={Logo} alt={props.alt}></img>
+        </a>
         <ul className="List">
           <li>
             <a className="NavList" href={`/services`}>
